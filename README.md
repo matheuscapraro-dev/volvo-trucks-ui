@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚛 Volvo Trucks Management - Frontend
+This is the frontend application for the Volvo Trucks Management project. It provides a clean, responsive, and dynamic interface to manage trucks through a corresponding .NET Web API.
 
-## Getting Started
+🖼 Screenshot
+Replace screenshot.png with your actual screenshot file in the repo.
 
-First, run the development server:
+🛠 Tech Stack
+Framework: Next.js
+Language: TypeScript
+UI Library: React
+Styling: Tailwind CSS
+UI Components: shadcn/ui
+Server State Management: TanStack Query
+Data Tables: TanStack Table
+Forms & Validation: React Hook Form & Zod
 
-```bash
+🚀 Getting Started
+Prerequisites
+Node.js (v20.x or later)
+
+Backend API must be running.
+
+1️⃣ Clone the Repository
+git clone [volvo-trucks-ui](https://github.com/matheuscapraro-dev/volvo-trucks-ui.git)
+cd volvo-trucks-ui
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Set Up Environment Variables
+Create a .env.local file in the project root:
+NEXT_PUBLIC_API_URL=http://localhost:5014
+
+4️⃣ Run the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+⚡ Features
+Full CRUD operations on trucks
+Dynamic tables with sorting, filtering, and selection
+Audit logs for tracking truck changes
+Responsive sidebar navigation
+Error handling with user-friendly Sonner toasts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Project Structure
+src/
+├─ app/ # Pages and layout
+├─ components/ # Reusable UI components
+├─ hooks/ # Custom React hooks
+├─ lib/ # Utilities
+├─ services/ # API service functions
+├─ types/ # TypeScript types
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📌 Notes
+Ensure the backend API is running before starting the frontend.
+All API errors are displayed via Sonner toasts.
+API Repo - [volvo-trucks-api](https://github.com/matheuscapraro-dev/volvo-trucks-api.git)
