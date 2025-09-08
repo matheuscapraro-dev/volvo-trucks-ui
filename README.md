@@ -62,6 +62,7 @@ All API errors are displayed via Sonner toasts.
 API Repo - [volvo-trucks-api](https://github.com/matheuscapraro-dev/volvo-trucks-api.git)
 
 Prints:
+
 <img width="892" height="766" alt="table" src="https://github.com/user-attachments/assets/8629d6ef-4979-4008-aca0-2ed5f8ed8472" />
 <img width="1017" height="529" alt="filters" src="https://github.com/user-attachments/assets/5c499228-31f9-461e-b8e2-f72dd3fc5a6b" />
 <img width="924" height="787" alt="add truck" src="https://github.com/user-attachments/assets/e3ef5d9f-7015-4b27-9f79-ae7eeda9e34e" />
